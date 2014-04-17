@@ -58,6 +58,6 @@ public class State {
   /** {@inheritDoc} */
   @Override
   public String toString() {
-    return this.getName();
+    return String.format("%s(%s)", this.getClass().getSimpleName().toString(), this.getName());
   }
 }
