@@ -1,0 +1,8 @@
+Simple reinforcement learning package
+=====================================
+
+Markov decision processes
+-------------------------
+
+We must be able to build automata which model Markov decision processes.
+Moreover we should be able to learn optimal policies via value iteration and policy iteration.
